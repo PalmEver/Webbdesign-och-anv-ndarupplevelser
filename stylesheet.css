@@ -43,6 +43,7 @@ a:hover {
     margin-bottom: 20px;
     overflow: hidden;
     border: solid 1px;
+    border-color: rgb(79, 113, 147);
 }
 
 .section-products .single-product .part-1::before {
@@ -61,14 +62,14 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("https://www.pngkey.com/png/full/113-1135608_fishing-pole-png-transparent-images-vector-silhouette-fish.png") no-repeat center ;
-    background-size: cover;
+    background: url("https://oldschool.runescape.wiki/images/Pearl_barbarian_rod_equipped_female.png?b3373") no-repeat center ;
+    background-size: 50%;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("https://www.clipartmax.com/png/full/101-1015132_fishing-pole-png-transparent-free-images-fishing-silhouette-png.png") no-repeat center;
-    background-size: cover;
+    background: url("https://oldschool.runescape.wiki/images/Pearl_fly_fishing_rod_equipped.png?5a682") no-repeat center;
+    background-size: 50%;
 }
 
 .section-products #product-3 .part-1::before {

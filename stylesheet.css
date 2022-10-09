@@ -13,6 +13,7 @@ a:hover {
 
 .section-products {
     padding: 80px 0 54px;
+    
 }
 
 .section-products .header {
@@ -41,6 +42,7 @@ a:hover {
     max-height: 290px;
     margin-bottom: 20px;
     overflow: hidden;
+    border: solid 1px;
 }
 
 .section-products .single-product .part-1::before {
@@ -59,24 +61,24 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center ;
+    background: url("https://www.pngkey.com/png/full/113-1135608_fishing-pole-png-transparent-images-vector-silhouette-fish.png") no-repeat center ;
     background-size: cover;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background: url("https://www.clipartmax.com/png/full/101-1015132_fishing-pole-png-transparent-free-images-fishing-silhouette-png.png") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
-    background-size: cover;
+    background: url("https://oldschool.runescape.wiki/images/Pearl_fishing_rod_equipped_female.png?d8402") no-repeat center;
+    background-size: 50%;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
-    background-size: cover;
+    background: url("https://oldschool.runescape.wiki/images/Pearl_fishing_rod_equipped.png?5a682") no-repeat center;
+    background-size: 50%;
 }
 
 .section-products .single-product .part-1 .discount,

@@ -13,7 +13,7 @@ a:hover {
 
 .section-products {
     padding: 80px 0 54px;
-    border: green 4px;
+    
 }
 
 .section-products .header {
@@ -42,6 +42,7 @@ a:hover {
     max-height: 290px;
     margin-bottom: 20px;
     overflow: hidden;
+    border: solid 1px;
 }
 
 .section-products .single-product .part-1::before {

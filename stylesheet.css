@@ -162,3 +162,11 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}

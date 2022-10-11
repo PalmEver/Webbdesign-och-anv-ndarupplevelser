@@ -170,3 +170,9 @@ a:hover {
     overflow: hidden;
     margin-top: -6px;
 }
+
+
+.card{
+background-size: cover;
+
+}

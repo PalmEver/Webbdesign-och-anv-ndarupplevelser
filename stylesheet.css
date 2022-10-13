@@ -207,3 +207,11 @@ background-size: cover;
     background-size: 100%;
     background-position: ;
 } */
+
+/* Checkout */
+
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}

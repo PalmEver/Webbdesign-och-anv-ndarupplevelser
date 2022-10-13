@@ -80,7 +80,7 @@
       
                         <div class="d-flex align-items-center justify-content-center pb-4">
                           <p class="mb-0 me-2">Don't have an account?</p>
-                          <button type="button" class="btn btn-outline-info">Create New Account</button>
+                          <button href="#" type="button" class="btn btn-outline-info">Create New Account</button>
                         </div>
       
                       </form>
@@ -93,7 +93,7 @@
     <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
         <div class="text-white px-3 py-4 p-md-5 mx-md-4" >
           <h4 class="mb-4">We are more than just a company</h4>
-          <p class="small mb-0">Here you can buy the best rods in the whole world according to "fishingbesties"
+          <p class="text-justify text-uppercase font-weight-bold">Here you can buy the best rods in the whole world according to "fishingbesties"
             latest blogg post! And you'll get extra spicy disconts as a student. If you're a recurring 
             customer you'll get points and be able to choose products for free! We will give you
             your best shopping experience and we'll be sure that you'll love that new fishing rod!

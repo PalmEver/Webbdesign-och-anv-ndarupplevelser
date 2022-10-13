@@ -208,6 +208,12 @@ background-size: cover;
     background-position: ;
 } */
 
+
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+=======
 .my-5 {
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;

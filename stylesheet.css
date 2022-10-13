@@ -207,3 +207,29 @@ background-size: cover;
     background-size: 100%;
     background-position: ;
 } */
+
+.my-5 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    background-color: #4271d7;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #45526e!important;
+    
+}
+
+.nav-link{
+    color: white;
+}
+
+.cart-container{
+position: absolute;  right: 80px;
+}
+
+.kalle-knapp{
+    position: absolute;  right: 150px;
+}

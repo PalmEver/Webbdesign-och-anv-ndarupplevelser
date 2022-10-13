@@ -62,24 +62,24 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("https://oldschool.runescape.wiki/images/Pearl_barbarian_rod_equipped_female.png?b3373") no-repeat center ;
-    background-size: 50%;
+    background: url("./assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg") no-repeat center ;
+    background-size: 100%;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("https://oldschool.runescape.wiki/images/Pearl_fly_fishing_rod_equipped.png?5a682") no-repeat center;
-    background-size: 50%;
+    background: url("./assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg") no-repeat center;
+    background-size: 100%;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("https://oldschool.runescape.wiki/images/Pearl_fishing_rod_equipped_female.png?d8402") no-repeat center;
-    background-size: 50%;
+    background: url("./assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg") no-repeat center;
+    background-size: 100%;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("https://oldschool.runescape.wiki/images/Pearl_fishing_rod_equipped.png?5a682") no-repeat center;
-    background-size: 50%;
+    background: url("./assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg") no-repeat center;
+    background-size: 100%;
 }
 
 .section-products .single-product .part-1 .discount,

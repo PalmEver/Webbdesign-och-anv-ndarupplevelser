@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <link rel="stylesheet" href="stylesheet.css">
+    </head>
   <body>
 
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><div class="logo-image">
-        <img src="assets/fishing-rod.png" class="img-fluid">
+        <img src="assets/fishing-rod.png" class="img-fluid" >
   </div> </a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,24 +21,31 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="HomePage.html">Home <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Small Rods</a>
+            <a class="nav-link" href="ProductPage3.html">Small Rods</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Medium Rods</a>
+            <a class="nav-link" href="ProductPage2.html">Medium Rods</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Big Rods</a>
+            <a class="nav-link" href="ProductPage.html">Big Rods</a>
           </li>
+          <div class="kalle-knapp"><li><button type="button" onclick="window.location.href='RegisterPage.html'" class="btn btn-primary">Register</button></li></div>
+          
+          <div class="cart-container">
+          <li class="nav-item">
+            <img src="assets/shopping-cart.png" class="cart-logo" width="40px" height="40px">
+          </li>
+        </div>
         </ul>
       </div>
     </nav>
     <!--Navbar slut-->
     <!--Hero Start-->
     <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="/assets/fishing-rod.png" alt="" width="72" height="57">
+      <img class="d-block mx-auto mb-4" src="assets/fishing-rod.png" alt="" width="72" height="57">
       <h1 class="display-5 fw-bold">Up to 50% off for students</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">We got big rods, medium rods and small rods</p>
@@ -51,7 +58,7 @@
     <div class="container px-4 py-5" id="custom-cards">  
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Small Rods</h3>
               <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>
@@ -62,7 +69,7 @@
         </div>
   
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/assets/jonathan-zerger-yzzJbqQ1O-Y-unsplash\ \(1\)\ \(1\).jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/jonathan-zerger-yzzJbqQ1O-Y-unsplash\ \(1\)\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mid Rods</h3>
               <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>
@@ -73,7 +80,7 @@
         </div>
   
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/assets/gaspar-zaldo--Ja4Mk8tEfI-unsplash\ \(1\).jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/gaspar-zaldo--Ja4Mk8tEfI-unsplash\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Big Rods</h3>
               <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>

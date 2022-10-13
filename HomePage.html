@@ -6,9 +6,10 @@
     <title>Bootstrap demo</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
      <link rel="stylesheet" href="stylesheet.css">
+     
     </head>
   <body>
-
+    
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><div class="logo-image">
@@ -33,10 +34,11 @@
             <a class="nav-link" href="ProductPage.html">Big Rods</a>
           </li>
           <div class="kalle-knapp"><li><button type="button" onclick="window.location.href='RegisterPage.html'" class="btn btn-primary">Register</button></li></div>
-          
+        </li>
+        <div class="kalle-login"><li><button type="button" onclick="window.location.href='LoginPage.html'" class="btn btn-primary">Login</button></li></div>
           <div class="cart-container">
           <li class="nav-item">
-            <img src="assets/shopping-cart.png" class="cart-logo" width="40px" height="40px">
+            <img src="assets/shopping-cart.png" href="Checkout.html" class="cart-logo" width="40px" height="40px">
           </li>
         </div>
         </ul>
@@ -46,7 +48,7 @@
     <!--Hero Start-->
     <div class="px-4 py-5 my-5 text-center">
       <img class="d-block mx-auto mb-4" src="assets/fishing-rod.png" alt="" width="72" height="57">
-      <h1 class="display-5 fw-bold">Up to 50% off for students</h1>
+      <h1 class="display-5 fw-bold" >Up to 50% off for students</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">We got big rods, medium rods and small rods</p>
       </div>
@@ -58,10 +60,10 @@
     <div class="container px-4 py-5" id="custom-cards">  
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg');">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style="background-image: url('assets/mathieu-le-roux-6_HqvY1E7NI-unsplash\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Small Rods</h3>
-              <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>
+              <a href="ProductPage3.html"> <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Small Rods</h3></a>
+              <a href="ProductPage3.html"> <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5></a>
               <ul class="d-flex list-unstyled mt-auto">
               </ul>
             </div>
@@ -71,8 +73,8 @@
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/jonathan-zerger-yzzJbqQ1O-Y-unsplash\ \(1\)\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mid Rods</h3>
-              <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>
+              <a href="ProductPage2.html"><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mid Rods</h3></a>
+              <a href="ProductPage2.html"> <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5></a>
               <ul class="d-flex list-unstyled mt-auto">
               </ul>
             </div>
@@ -82,8 +84,8 @@
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/gaspar-zaldo--Ja4Mk8tEfI-unsplash\ \(1\).jpg');">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Big Rods</h3>
-              <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5>
+              <a href="ProductPage.html"><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Big Rods</h3></a>
+              <a href="ProductPage.html"><h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Up to 50% for students</h5></a>
               <ul class="d-flex list-unstyled mt-auto">
               </ul>
             </div>

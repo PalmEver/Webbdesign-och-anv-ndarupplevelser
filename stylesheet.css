@@ -218,3 +218,13 @@ position: absolute;  right: 80px;
 .kalle-login{
     position: absolute;  right: 250px;
 }
+
+.btn-primary {
+    background-color: #75a466 !important;
+    border-color: #75a466;
+    --bs-btn-border-color: #75a466 !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #5d8350 !important;
+    border-color: #5d8350 !important;
+}

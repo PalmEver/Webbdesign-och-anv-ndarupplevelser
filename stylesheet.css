@@ -190,33 +190,8 @@ background-size: cover;
     background: linear-gradient(to right, #2461ee, #3687d8, #36a5dd, #5045b4);
     }
     
-    @media (min-width: 768px) {
-    .gradient-form {
-    height: 100vh !important;
-    }
-    }
-    @media (min-width: 769px) {
-    .gradient-custom-2 {
-    border-top-right-radius: .3rem;
-    border-bottom-right-radius: .3rem;
-    }
-    }
-
-/* .text-white.px-3.py-4.p-md-5.mx-md-4 {
-    background-image: url("assets/fishing-kit-sale.jpg");
-    background-size: 100%;
-    background-position: ;
-} */
-
-
-@media (min-width: 1025px) {
-.h-custom {
-height: 100vh !important;
-}
-}
-
 .my-5 {
-    margin-top: 1rem!important;
+    margin-top: 0rem!important;
     margin-bottom: 1rem!important;
     background-color: #4271d7;
     color: white;
@@ -242,4 +217,14 @@ position: absolute;  right: 80px;
 }
 .kalle-login{
     position: absolute;  right: 250px;
+}
+
+.btn-primary {
+    background-color: #75a466 !important;
+    border-color: #75a466;
+    --bs-btn-border-color: #75a466 !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #5d8350 !important;
+    border-color: #5d8350 !important;
 }

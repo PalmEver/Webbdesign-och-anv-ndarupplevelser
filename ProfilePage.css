@@ -1,5 +1,5 @@
 body{
-    margin-top:20px;
+    
     background:#eee;
 }
 /* My Account */
@@ -118,8 +118,4 @@ body{
 }
 a:hover{
     text-decoration:none;
-}
-
-.nav-link{
-    color: #282c3f !important;
 }

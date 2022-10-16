@@ -119,3 +119,7 @@ body{
 a:hover{
     text-decoration:none;
 }
+
+.nav-link{
+    color: #282c3f !important;
+}

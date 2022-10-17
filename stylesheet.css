@@ -149,7 +149,6 @@ a:hover {
     position: relative;
     padding: 0 7px;
     margin-right: 2px;
-    opacity: 0.6;
 }
 
 .section-products .single-product .part-2 .product-old-price::after {
@@ -159,7 +158,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #444444;
+    background-color: #ff0000;
     transform: translateY(-50%);
 }
 

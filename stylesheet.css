@@ -218,7 +218,9 @@ position: absolute;  right: 80px;
 .kalle-login{
     position: absolute;  right: 250px;
 }
-
+.container-fluid{
+    text-align: end;
+}
 .btn-primary {
     background-color: #75a466 !important;
     border-color: #75a466;

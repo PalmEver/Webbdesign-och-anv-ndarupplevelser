@@ -222,9 +222,9 @@ position: absolute;  right: 80px;
     text-align: end;
 }
 .btn-primary {
-    background-color: #75a466 !important;
-    border-color: #75a466;
-    --bs-btn-border-color: #75a466 !important;
+    background-color: #587b4c !important;
+    border-color: #587b4c;
+    --bs-btn-border-color: #587b4c !important;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #5d8350 !important;
